@@ -1,0 +1,6 @@
+version: '3'
+services:
+  anti-corruption-layer-api:
+    build: .
+    ports:
+      - '3000:3000'
